@@ -1,0 +1,30 @@
+@mixin hover($_property, $_toValue) {
+  transition: #{$_property} 0.3s;
+  &:hover {
+    #{$_property}: $_toValue;
+  }
+}
+
+@mixin desk-768 {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desk-1280 {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin desk-1024 {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin desk-1600 {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
