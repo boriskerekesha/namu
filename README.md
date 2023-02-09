@@ -1,6 +1,6 @@
 # Landing page: NAMU #
 
-[Link](https://boriskerekesha.github.io/namu/)
+[Link](https://boryskerekesha.github.io/namu/)
 
 ***
 ### Adaptive landing page for: #
